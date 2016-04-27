@@ -13,8 +13,8 @@ Original Exploit Location:
 
 Changes from original:
 
-"#include <openssl/rc4.h>"
-"#include <openssl/md5.h>"
+"#include < openssl/rc4 DOT h >"
+"#include < openssl/md5 DOT >"
 
 Add "const" to line 961:
 
