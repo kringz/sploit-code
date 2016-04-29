@@ -1,4 +1,5 @@
 /*
+ * taken from https://www.exploit-db.com/exploits/764/
  * OF version r00t VERY PRIV8 spabam
  * Compile with: gcc -o OpenFuck OpenFuck.c -lcrypto
  * objdump -R /usr/sbin/httpd|grep free to get more targets
