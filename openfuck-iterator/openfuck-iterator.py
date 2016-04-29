@@ -5,7 +5,6 @@ from subprocess import call
 # openfuck loop script
 # Stephen Krings
 
-#hex(version)
 
 for i in xrange(138):
 	form = "0x{:02x}".format(i)
