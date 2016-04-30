@@ -1,13 +1,11 @@
-#!/usr/bin/python
 
-from pexpect import pxssh
+import pxssh
 import getpass
 try:                                                            
     s = pxssh.pxssh()
     hostname = raw_input('hostname: ')
     username = raw_input('username: ')
-   # password = '() { :;}; cat /etc/passwd'
-    password = getpass.getpass('password: ')   
+    password = getpass.getpass('password: ')
     s.login (hostname, username, password)
     s.sendline ('uptime')   # run a command
     s.prompt()             # match the prompt
