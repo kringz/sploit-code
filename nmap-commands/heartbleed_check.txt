@@ -1,0 +1,2 @@
+nmap -p 443 --script ssl-heartbleed 192.168.15.238
+

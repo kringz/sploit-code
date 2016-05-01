@@ -1,0 +1,2 @@
+nmap -v -p 1-65535 -sV -O -sS -T4 192.168.15.200-255 > nmap_comprehensive_subnet15.txt
+
