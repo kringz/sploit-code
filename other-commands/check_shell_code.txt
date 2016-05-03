@@ -1,0 +1,2 @@
+printf $(cat HP_power_managementBO_shell_code.txt | tr -d '\n')
+
