@@ -1,0 +1,1 @@
+nmap --script /usr/share/nmap/scripts/banner-plus -min-rate=400 --min-parallelism=512 -p1-65535 -n -Pn -PS -oA ~/Desktop/Dropbox/vms/202 192.168.15.202 -T4
