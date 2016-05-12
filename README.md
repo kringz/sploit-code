@@ -1,10 +1,10 @@
 Compile command:
 
-gcc -o OpenFuck ./openfuck.c -lcrypto
+gcc -o OpenF ./openfuck.c -lcrypto
 
 Use command:
 
-./OpenFuck 0x73 192.168.15.222 443
+./OpenF 0x73 192.168.15.222 443
 
 
 Original Exploit Location:
